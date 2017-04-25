@@ -94,7 +94,7 @@
         
 .table tr:nth-child(even) {
     background-color: #f1f1f1;
-}
+}/*偶数行背景色设置*/
 .table td{
     padding: 8px;
 }

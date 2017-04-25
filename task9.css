@@ -1,0 +1,33 @@
+.logo{
+    width: 211px;
+    height: 211px;
+    background: #fff url(http://7xpvnv.com2.z0.glb.qiniucdn.com/f754722e-f087-4014-9711-15a36bb3ac0b) no-repeat 0 0;
+}
+.logo:hover{
+    background-position: 0 -209px;
+}
+/*part2*/
+@font-face {
+  font-family: 'iconfont';  /* project id 286812 */
+  src: url('//at.alicdn.com/t/font_gbncz5z9pv6lxr.eot');
+  src: url('//at.alicdn.com/t/font_gbncz5z9pv6lxr.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_gbncz5z9pv6lxr.woff') format('woff'),
+  url('//at.alicdn.com/t/font_gbncz5z9pv6lxr.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_gbncz5z9pv6lxr.svg#iconfont') format('svg');
+}
+.logo2{
+    margin-top: 30px;
+}
+.icon{
+    font-family: iconfont !important;
+    font-size: 200px;
+    font-style: normal;
+    color: #1296db;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+.icon:hover{
+    color: #d81e06;
+    margin-top: 1px;
+}
