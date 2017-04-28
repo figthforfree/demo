@@ -1,0 +1,125 @@
+.layout { 
+    width: 600px;
+    margin: 0 auto;
+}
+/*part1*/
+.frame {
+    color: #fff;
+    padding: 1px 16px;
+    margin-top: 30px;
+    border-radius: 3px;
+    line-height: 1.5;
+}
+.close {
+    text-decoration: none;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.headfont{
+    font-weight: bold;
+    font-size: 24px;
+    margin: 10px 0;
+}
+.green {
+    background-color: #4CAF50;
+}
+.blue {
+    background-color: #2196F3;
+}
+        
+.red {
+    background-color: #f44336;
+}
+.orange {
+    background-color: #ff9800;
+}
+/*part1*/
+/*part2*/
+.card{
+    padding-bottom: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card>h2{
+    padding: 15px 16px;
+    background-color: #009688;
+    color: #fff;
+}
+.card form{
+    margin: 16px;
+}
+.card label{
+    color: #757575;
+    vertical-align: middle;
+}
+.card input[type="text"] ,
+.card textarea {
+    padding: 8px 0;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #808080;
+    width: 100%;
+}
+.card input[type="text"]:focus ,
+.card textarea:focus {
+    outline: none;/*input元素选中后的外框清除*/
+}
+.card form>div{
+    margin-top: 16px;
+}
+.clear:after{
+    content:'';
+    display: block;
+    clear: both;
+}
+.select{
+    float: left;
+    width: 50%;
+    line-height: 1.4;
+}
+.card input[type="submit"]{
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #009688;
+    border: none;
+}
+/*part2*/
+/*part4*/
+.nav{
+    color: #000;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 300px;
+    background-color: #f1f1f1;
+    list-style-type: none;   
+    position: relative;/*生成BFC为下拉菜单准备*/
+    border-radius: 3px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.nav:after{/*清除浮动*/
+    content: " ";
+    display: block;
+    clear: both;
+}
+.nav>li{
+    float: left;
+}
+.nav li a{
+    color: #000;
+    padding: 8px 16px;
+    display: block;
+    text-decoration: none;
+}
+.nav li a:hover{
+    background-color: #ccc;
+}
+.menu{
+    display: none;
+    min-width: 160px;
+    position: absolute;/*脱离文档流*/
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+}
+.nav li:hover .menu{/*选择器指向li，鼠标离开a，下拉菜单不消失*/
+    display: block;
+}

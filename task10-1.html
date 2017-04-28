@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="task10-1.css">
+    <title>task10-1</title>
+</head>
+<body>
+    <!--part1-->
+    <div class="layout">
+        <div class="green frame">
+            <span class="close">×</span>
+            <h3 class="headfont">恭喜你</h3>
+            <p>获得本周学霸，继续加油吧</p>
+        </div>
+        <div class="blue frame">
+            <span class="close">×</span>
+            <h3 class="headfont">通知</h3>
+            <p>晚上上课，不要忘了</p>
+        </div>
+        <div class="red frame">
+            <span class="close">×</span>
+            <h3 class="headfont">天啊</h3>
+            <p>竟然几天没做任务</p>
+        </div>
+        <div class="orange frame">
+            <span class="close">×</span>
+            <h3 class="headfont">警告</h3>
+            <p>学如逆水行舟，不进则退</p>
+        </div>
+    </div>
+    <!--part1-->
+    <hr>
+    <!--part2-->
+    <div class="layout">
+        <div class="card">
+            <h2>信息收集表</h2>
+            <form action method="post">
+                <div>
+                    <label for="name">姓名</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div>
+                    <label for="qq">QQ</label>
+                    <input type="text" id="qq" name="qq">
+                </div>
+                <div>
+                    <label for="text">要说的话</label>
+                    <textarea name="text" id="text" cols="30" rows="4"></textarea>
+                </div>
+                <div class="clear">
+                    <div class="select">
+                        <input type="checkbox" id="milk" name="drinks" checked>
+                        <label for="milk">Milk</label>
+                        <br>
+                        <input type="checkbox" id="sugar" name="drinks">
+                        <label for="sugar">Sugar</label>
+                        <br>
+                        <input type="checkbox" id="lemon" name="drinks">
+                        <label for="lemon">Lemon</label>
+                    </div>
+                    <div class="select">
+                        <input type="radio" id="male" name="sex" checked>
+                        <label for="male">Male</label>
+                        <br>
+                        <input type="radio" id="female" name="sex">
+                        <label for="female">Female</label>
+                    </div>     
+                </div>
+                <div>
+                    <input type="submit" value="提交">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--part2-->
+    <hr>
+    <!--part4-->
+    <div class="layout">
+        <ul class="nav">          
+            <li>
+                <a href="#">首页</a>
+            </li>
+            <li>
+                <a href="#">作品</a>
+            </li>
+            <li>
+                <a href="#">更多</a>
+                <div class="menu">
+                    <a href="#">GitHub</a>
+                    <a href="#">博客</a>
+                    <a href="#">知乎</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

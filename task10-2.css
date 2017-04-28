@@ -1,0 +1,40 @@
+/*part3*/
+.layout { 
+    width: 600px;
+    margin: 0 auto;
+}
+.cover{
+    position: fixed;/*固定定位拉伸四边即全屏*/
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4)
+}
+.window{
+    width: 600px;
+    transform: translate(-50%, -50%);/*根据页面缩放*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: #fff;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.window header, footer{
+    background-color: #009688;
+    padding: 1px 16px;
+}
+.window main{
+    padding: 16px;
+}
+.window main p{
+    color: #000;
+}
+.close{
+    font-size: 20px;
+    float: right;
+    margin-top: 16px;
+    cursor: pointer;
+}
+/*part3*/
