@@ -78,6 +78,9 @@
     display: block;
     clear: both;
 }
+#content4{
+    margin-bottom: 30px;
+}
 .main4,.aside4,.extra4{
     float: left;
 }
