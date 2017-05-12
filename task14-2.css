@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'icon';  /* project id 298637 */
+  src: url('//at.alicdn.com/t/font_ss5h3fv21xhnz5mi.eot');
+  src: url('//at.alicdn.com/t/font_ss5h3fv21xhnz5mi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_ss5h3fv21xhnz5mi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_ss5h3fv21xhnz5mi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_ss5h3fv21xhnz5mi.svg#iconfont') format('svg');
+}
+.chearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.float {
+  float: left;
+}
+#header {
+  margin: 120px 0 0 100px;
+  max-width: 2048px;
+}
+.h-logo {
+  border-radius: 50%;
+  width: 280px;
+  height: 280px;
+  background: #000 url(http://img3.dwstatic.com/tv/1507/301571198716/1437616498065.png) no-repeat center center;
+  background-size: 100%;
+}
+.h-name>p:nth-child(1) {
+  font-weight: 100;
+  font-size: 60px;
+  margin: 39px 125px 35px 35px
+}
+.h-name>p:nth-child(2) {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 39px;
+}
+.h-crad {
+  width: 428px;
+  font-size: 25px;
+}
+.h-crad>p {
+  font-weight: 600;
+  font-size: 25px; 
+  padding-bottom: 15px;
+  margin-top: 30px;
+  border-bottom: 10px solid #000;
+}
+.h-crad>ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.h-crad li {
+  margin-top: 15px;
+}
+#content,#footer {
+  margin: 50px 30px 90px 90px;
+}
+#content>ul>li:before {
+  content: "\e656";
+  font-family: icon;
+  font-size: 25px;
+  float: left;
+  position: absolute;
+  top: -2px;
+  left: -133px;
+}
+#content>p,#footer>p {
+  font-size: 30px;
+  display: inline-block;
+  width: 500px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #ccc;
+}
+
+#content>ul,#footer>ul{
+  list-style-type: none;
+  padding-left: 120px;
+  margin-left: 20px;
+}
+#content>ul {
+  border-left: 1px solid #000;
+}
+#content>ul>li,#footer>ul>li{
+  position: relative;
+  top: -5px;
+}
+#content span,#footer span{
+  opacity: 0.3;
+}
+#footer li {
+  width: 375px;
+  text-align:justify
+}
+#footer>ul>li:before {
+  content: "\e626";
+  font-family: icon;
+  font-size: 25px;
+  float: left;
+  position: absolute;
+  top: -2px;
+  left: -136px;
+}
+#footer.skills {
+  margin: 50px 0 90px 90px;
+  position: relative;
+  width: 600px;
+}
+#footer.skills>ul {
+  padding-left: 60px;
+}
+#footer.skills>ul>li {
+  float: left;
+  width: 240px;
+  margin-bottom: 80px;
+}
+#footer.skills>ul>li:before {
+  content: "\e626";
+  font-family: icon;
+  font-size: 25px;
+  float: left;
+  position: absolute;
+  top: -5px;
+  left: -80px;
+}
