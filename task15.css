@@ -1,0 +1,286 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.layout {
+  margin: 0 auto;
+  width: 1140px;
+  text-align: center;
+}
+.float {
+  float: left;
+}
+.chearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+#header {
+  background: no-repeat url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1494936689744&di=6e168df7297cf45ea2401da637edc474&imgtype=0&src=http%3A%2F%2Fimg4.dwstatic.com%2Ftv%2F1507%2F301571198716%2F1437616703067.png);
+  background-size: 100% ;
+  height: 708px;
+}
+#header .h-font {
+  color: #ccc
+}
+#header .h-font>h1 {
+  margin-bottom: 280px;
+}
+#header .h-font>a {
+  border-radius: 5px; 
+  background-color: #1296db;
+  opacity: 0.4;
+  color: #ccc;
+  display: inline-block;
+  width: 250px;
+  height: 80px;
+  line-height: 80px;
+}
+#header .h-font>a:hover {
+  opacity: .1;
+}
+.navbar {
+  margin-bottom: 25px;
+  padding: 30px;
+  text-align: left;
+}
+#header>.navbar>a {
+  color: #1296db;
+  font-size: 42px;
+  text-shadow: 3px 2px 2px #ccc;
+  font-style: italic;
+}
+#header>.navbar>a:hover {
+  opacity: .4;
+}
+.navbar>ul {
+  float: right;
+}
+.navbar>ul>li {
+  float: left;
+  margin: 5px; 
+}
+.navbar>ul>li>a {
+ color: #1296db;
+ font-style: italic;
+ text-shadow: 3px 2px 2px #ccc;
+ font-size: 16px;
+}
+.navbar>ul>li>a:hover {
+  opacity: .3;
+}
+#services,#portfplio,#about,#team{
+  padding: 75px 0;
+}
+#services>h1,#portfplio>div>h1,#about>h1,#team>div>h1 {
+  margin-bottom: 20px;
+}
+#services>p,#portfplio>div>p,#about>p,#team>div>p {
+  margin: 25px 0 75px 0;
+  font-style: italic;
+}
+#services>div>div {
+  float: left;
+}
+#services>div>div {
+  float: left;
+  width: 33.3%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#portfplio,#team {
+  background-color: #f7f7f7;
+}
+.wrap {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 33.3%;
+  padding: 10px;
+  margin-bottom: 30px;
+  float: left;
+}
+.wrap>a,.wrap>a>img {
+  display: inline-block;
+  width: 100%;
+}
+.wrap>a:hover {
+  opacity: .6;
+}
+.info {
+  background-color: #fff;
+  width: 100%;
+  display: inline-block;
+}
+#about>p {
+  margin-bottom: 60px;
+}
+#about>ul>li>img {
+  display: inline-block;
+  border-radius: 50%;
+  border: 7px solid #ccc;
+  width: 300px;
+  height: 169px;
+}
+#about>ul>li {
+  position: relative;
+  padding: 0 0 180px 0;
+  height: 169px;
+}
+#about>ul>li:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  border-left: 3px solid #ccc;
+  height: 100%; 
+  z-index: -1;
+}
+#about>ul>li:last-child {
+  padding-bottom: 0;
+}
+.summary {
+  width: 25em;
+  margin-right: 165px;
+  position: absolute;
+  top: 0px;
+  right: 50%;
+  text-align: right;
+}
+#about>ul>li:nth-child(even)>.summary {
+  left: 50%;
+  margin-left: 165px;
+  text-align: left;
+}
+#about>ul>li:last-child>div {
+  display: inline-block;
+  border-radius: 50%;
+  border: 7px solid #ccc;
+  width: 300px;
+  height: 169px;
+  background-color: #325391;
+  line-height: 169px;
+  color: #f7f7f7;
+  font-weight: bold;
+}
+#team>div>ul>li>img {
+  width: 225px;
+  border-radius: 50%;
+  border: 7px solid #fff;
+  margin: 0 auto;
+}
+#team .iconfont,#footer .iconfont{
+  color: #aaa;
+  font-size: 36px;
+}
+#team ul {
+  padding: 0;
+}
+#team>div>ul>li>div {
+  text-align: center;
+  margin-bottom: 50px;
+}
+#team>div>ul>li {
+  width: 33.3333%;
+}
+#team>div>ul>li>div>ul>li  {
+  display: inline-block;
+  padding: 0 5px;
+}
+#team>div>ul>li>div>ul>li>a:hover {
+  opacity: .3;
+}
+#link {
+  background-color: #fff;
+}
+#link>div>ul {
+  padding: 0;
+  margin-bottom: 80px;
+}
+#link>div>ul>li {
+  display: inline-block;
+  width: 24%;
+}
+#contact-us {
+  background: no-repeat url(https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1495078371&di=73d8e962d10e817f97164459c5343fd3&src=http://static.vgtime.com/photo/web/150720210621762.jpg);
+  background-size: 100%;
+  height: 746px;
+  overflow: hidden;
+}
+.c-font {
+  color: #ccc;
+  margin-top: 70px;
+}
+.c-font>p {
+  margin-top: 50px;
+  font-style: italic;
+  margin-bottom: 100px;
+}
+.c-form {
+  height: 236px;
+}
+.c-form ul {
+  padding: 0 20px;
+  width: 47%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+} 
+.c-form ul>li {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.c-form ul>li>input[type=text] {
+   display: inline-block;
+   width: 100%;
+   padding: 20px;
+   box-sizing: border-box;
+   border: 1px solid #ccc;
+   border-radius: 3px;
+}
+.c-textarea {
+  margin-top: 16px;
+  padding: 20px;
+  width: 45%;
+  height: 169px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  display: inline-block;
+  vertical-align: top;
+}
+.c-button {
+  outline: 0;
+  border-radius: 5px; 
+  background-color: #1296db;
+  border-color: #1296db; 
+  color: #ccc;
+  display: inline-block;
+  width: 250px;
+  height: 80px;
+  line-height: 80px;
+  cursor: pointer;
+}
+.f-font {
+  vertical-align: middle;
+}
+.f-font ul {
+  padding: 0;
+}
+.f-font ul>li {
+  display: inline-block;
+}
+.f-font>ul>li {
+  width: 32.33%;
+}
+.f-font a {
+  color: #1296db;
+}
+.f-font a:hover {
+  opacity: .6;
+}
